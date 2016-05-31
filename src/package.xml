@@ -5,16 +5,16 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members></members>
+		<members>*</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
-        <members>Contact.mc_Marketing_Cloud_Sync_Error__c</members>
-        <members>Contact.mc_Sync_to_Marketing_Cloud__c</members>
-        <members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
-        <members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
-        <name>CustomField</name>
-    </types>
+        	<members>Contact.mc_Marketing_Cloud_Sync_Error__c</members>
+        	<members>Contact.mc_Sync_to_Marketing_Cloud__c</members>
+        	<members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
+        	<members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
+        	<name>CustomField</name>
+	</types>
 	<types>
 		<members>*</members>
 		<name>CustomObject</name>
