@@ -34,7 +34,9 @@ https://help.marketingcloud.com/en/documentation/integrated_products__crm_and_we
   `System.schedule('Marketing Cloud Sync - Lead', '0 0 * * * ?', new mc_SubscriptionSyncBatch('Contact'));`
 
 
-4. OPTIONAL - Add Marketing Cloud Sync Error custom fields to Lead and Contact layouts. This allows users or administrators to check if there was a failure in syncing to Marketing Cloud.
+4. **Add Marketing Cloud Sync Error custom fields to Lead and Contact layouts (OPTIONAL)**
+
+  This allows users or administrators to check if there was a failure in syncing to Marketing Cloud.
 
 
 
