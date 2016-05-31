@@ -12,6 +12,7 @@ https://help.marketingcloud.com/en/documentation/integrated_products__crm_and_we
 
 
 1. Install package to your Org
+
 [![Deploy to Salesforce](https://andrewfawcett.files.wordpress.com/2014/09/deploy.png "Deploy to Salesforce")](https://githubsfdeploy.herokuapp.com/app/githubdeploy/benedwards44/sf-mc-subscription-sync)
 
 2. Enable sync options via Custom Setting
