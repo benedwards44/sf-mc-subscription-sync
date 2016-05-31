@@ -25,10 +25,12 @@ https://help.marketingcloud.com/en/documentation/integrated_products__crm_and_we
 
   This is used to retry any errors and execute the sync as a user who is setup in Marketing Cloud. To schedule the batch, log in as a user that is set up as an API user in Marketing Cloud
   
-  Schedule Hourly (Contact)
+  *Schedule Hourly (Contact)*
+  
   `System.schedule('Marketing Cloud Sync - Contact', '0 0 * * * ?', new mc_SubscriptionSyncBatch('Contact'));`
   
-  Schedule Hourly (Lead)
+  *Schedule Hourly (Lead)*
+  
   `System.schedule('Marketing Cloud Sync - Lead', '0 0 * * * ?', new mc_SubscriptionSyncBatch('Contact'));`
 
 
