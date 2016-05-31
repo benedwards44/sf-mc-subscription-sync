@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Controls whether the auto-sync of Lead and Contact subscription changes should sync to Marketing Cloud.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Contact_Sync__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Enable or disable auto-syncing of HasOptedOutOfEmail changes to Marketing Cloud for the Contact object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable or disable auto-syncing of HasOptedOutOfEmail changes to Marketing Cloud for the Contact object.</inlineHelpText>
+        <label>Contact Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Sync__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Enable or disable auto-syncing of HasOptedOutOfEmail changes to Marketing Cloud for the Lead object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable or disable auto-syncing of HasOptedOutOfEmail changes to Marketing Cloud for the Lead object.</inlineHelpText>
+        <label>Lead Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Marketing Cloud Sync Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>

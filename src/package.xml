@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members></members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+        <members>Contact.mc_Marketing_Cloud_Sync_Error__c</members>
+        <members>Contact.mc_Sync_to_Marketing_Cloud__c</members>
+        <members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
+        <members>Lead.mc_Marketing_Cloud_Sync_Error__c</members>
+        <name>CustomField</name>
+    </types>
+	<types>
+		<members>*</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+	<version>36.0</version>
+</Package>
