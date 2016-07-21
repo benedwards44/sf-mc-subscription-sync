@@ -27,7 +27,7 @@ https://help.marketingcloud.com/en/documentation/integrated_products__crm_and_we
   
   *Schedule Hourly (Contact)*
   
-  `System.schedule('Marketing Cloud Sync - Contact', '0 0 * * * ?', new mc_SubscriptionSyncBatch('Contact'));`
+  `System.schedule('Marketing Cloud Sync - Contact', '0 0 * * * ?', new mc_SubscriptionSyncBatch('Lead'));`
   
   
   *Schedule Hourly (Lead)*
