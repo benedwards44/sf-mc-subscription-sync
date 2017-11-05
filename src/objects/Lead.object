@@ -12,4 +12,14 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>mc_Sync_to_Marketing_Cloud__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Controls whether to sync the record to Marketing Cloud for the batch processing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls whether to sync the record to Marketing Cloud for the batch processing.</inlineHelpText>
+        <label>Sync to Marketing Cloud</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
 </CustomObject>

@@ -16,5 +16,10 @@
         <field>Lead.mc_Marketing_Cloud_Sync_Error__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.mc_Sync_to_Marketing_Cloud__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <userLicense>Salesforce</userLicense>
 </Profile>
